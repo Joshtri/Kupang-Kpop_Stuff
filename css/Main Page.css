@@ -1,0 +1,87 @@
+*
+{
+    padding: 0;
+    margin:  0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+
+nav{
+
+    background: linear-gradient(135deg, #5481AA 0%, rgba(114, 151, 185, 0.98586) 55.72%, rgba(148, 176, 201, 0.97) 99.99%, rgba(84, 129, 170, 0) 100%);
+    position: absolute;
+    width: 100%;
+    height: 122px;
+    background-size: 400%;
+    animation: anim 4s in infinite alternate;
+}
+
+@keyframes anim{
+    from{
+        background-position: 0%;
+    }
+    to{
+        background-position:  100%;
+    }
+}
+
+p.desc_web{
+    position: absolute;
+    width: 438px;
+    height: 119px;
+    left: 852px;
+    top: 359px;
+
+    /*  */
+}
+
+h1.welcome1{
+/* SELAMAT DATANG */
+
+
+position: absolute;
+width: 374px;
+height: 0px;
+left: 852px;
+top: 267px;
+
+font-family: 'Calibri';
+font-style: normal;
+font-weight: 400;
+font-size: 38px;
+line-height: 0%;
+/* identical to box height, or 0px */
+
+letter-spacing: 0.045em;
+
+color: #000000;
+
+/* border: 1px solid #000000; */
+}
+
+h3.welcome2{
+/* di Website Kpoperstuff kupang */
+
+
+position: absolute;
+width: 773.02px;
+height: 0px;
+left: 851.98px;
+top: 310.26px;
+
+font-family: 'Calibri';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 0%;
+/* identical to box height, or 0px */
+
+letter-spacing: 0.045em;
+
+color: #000000;
+
+transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
