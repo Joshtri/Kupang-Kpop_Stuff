@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'JetBrains-Medium';
+    src: url(/fonts/JetBrainsMono-Medium.ttf);
+}
+
 *
 {
     padding: 0;
@@ -10,17 +15,19 @@
 
 nav{
 
-    background: linear-gradient(135deg, #5481AA 0%, rgba(114, 151, 185, 0.98586) 55.72%, rgba(148, 176, 201, 0.97) 99.99%, rgba(84, 129, 170, 0) 100%);
+    background: linear-gradient(180deg, #5481AA 0%, rgba(114, 151, 185, 0.98586) 55.72%, rgba(148, 176, 201, 0.97) 99.99%, rgba(84, 129, 170, 0) 100%);
     position: absolute;
     width: 100%;
     height: 122px;
     background-size: 400%;
     animation: anim 4s in infinite alternate;
+    
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);;
 }
 
 @keyframes anim{
     from{
-        background-position: 0%;
+        background-position: 20%;
     }
     to{
         background-position:  100%;
@@ -34,7 +41,18 @@ p.desc_web{
     left: 852px;
     top: 359px;
 
-    /*  */
+    font-family: 'Consolas';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+   
+    /* or 0px */
+
+   text-align: justify; 
+    letter-spacing: -0.055em;
+
+    color: #241F1F;
+
 }
 
 h1.welcome1{
@@ -61,27 +79,58 @@ color: #000000;
 /* border: 1px solid #000000; */
 }
 
-h3.welcome2{
-/* di Website Kpoperstuff kupang */
+h3.welcome2
+{
+    /* di Website Kpoperstuff kupang */
 
 
-position: absolute;
-width: 773.02px;
-height: 0px;
-left: 851.98px;
-top: 310.26px;
+    position: absolute;
+    width: 773.02px;
+    height: 0px;
+    left: 851.98px;
+    top: 310.26px;
 
-font-family: 'Calibri';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 0%;
-/* identical to box height, or 0px */
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.3vw;
+  
+    /* identical to box height, or 0px */
 
-letter-spacing: 0.045em;
+    letter-spacing: 0.045em;
 
-color: #000000;
+    color: #000000;
 
-transform: matrix(1, 0, 0, 1, 0, 0);
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+
+button.intoshope{
+
+    position: absolute;
+    width: 241px;
+    height: 57px;
+    left: 919px;
+    top: 530px;
+
+    /* Color  */
+    background: linear-gradient(278.03deg, rgba(130, 14, 149, 0.5325) 8.46%, rgba(58, 61, 136, 0.5254) 43.82%);
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    /* color: #ffffff; */
+    cursor: pointer;
+
+
+    border-radius: 7px;
+
+    /*Font*/
+    font-family:'JetBrains-Medium';
+    /* identical to box height, or 0px */
+
+    letter-spacing: -0.065em;
+
+    color: #000000;
+
 }
 
